@@ -35,7 +35,7 @@ export default function Row({title,fetchUrl, isLargeRow}) {
                 settrailerUrl(urlParams.get('v'))
             }).catch((error)=>console.log('hi'+error))
         }
-
+        console.log(trailerUrl)
     }
     return (
         <div className="row">
